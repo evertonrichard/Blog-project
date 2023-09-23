@@ -1,0 +1,182 @@
+/* @font-face {
+    font-family: 'font-paragrafo-bold';
+    src: url(assets/fontes/inter/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: 'font-titulo';
+    src: url(assets/fontes/titiliumweb/TitilliumWeb-Bold.ttf);
+}
+
+/* reset da pagina  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-grid {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+/* .logo-header {
+    width: 9px;
+    height: 9px;
+    margin:  10;
+
+} */
+/* começando estilização do header */
+/* scroll suave na pagina html */
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #4F9B52;
+    height: 90px;
+    /* width: 1440px; */
+}
+
+/*responsavel pela organização dos componentes do header */
+.links-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 30px;
+    
+}
+/* remover a estilização que vem por padrao nos links da ul li  */
+.links-header ul li{
+    list-style-type: none; 
+    text-decoration: none; /*remove as bolinhas laterais*/
+}
+
+
+.links-header .nav-links a {
+    text-decoration: none;      /* realiza a remoção do sublinhado dos links */
+    color: white;
+    font-family: font-paragrafo-bold;
+    font-size: 20px;
+    letter-spacing: 1px;     /*realiza o espaçamento interno dos links*/
+
+}
+.links-header .nav-links a:hover{ /* efeito de quando passa o mause sobre os links o mesmo muda de cor para preto*/
+    color: white;
+    transition: 0.2s; /* tempo para realizar mudança de cor*/
+}
+.nav-links{  /*realiza oespaçamento dos links e deixa os mesmos na horizontal*/
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.input-search input{  /* realiza a estilização do input-search dentro do header declarando as fontes, bordas, largura e altura*/
+    width: 387px;
+    height: 41px;
+    border-radius: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    font-family: font-paragrafo-bold;
+    font-size: 15px;
+}
+
+.b.card {
+    
+    display: flex;
+    flex-direction: row;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 300px;
+    height: 1148pxx;
+
+
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    /* justify-content: space-between; */
+
+   
+}
+
+.card-1 {
+    padding: 50px;
+    width: 1148px;
+    height: 300px;
+  
+    justify-content: center;
+
+
+
+}
+
+.card-2 {
+   padding: 50px;
+    width: 1148px;
+    height: 300px;
+   
+    
+}
+
+.card-3 {
+    padding: 50px;
+    width: 1148px;
+    height: 300px;
+    /* margin-top: 30px; */
+}
+
+
+
+.data-card {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* font-family: font-titulo-bold;
+    font-weight: bold; */
+    /* color: white;
+    letter-spacing: 1px;
+    font-size: 26px;
+    align-items: flex-end; */
+    
+
+}
+
+.paragrafo-card {
+    
+    font-family:font-paragrafo-bold ;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    justify-content: center;
+}
+
+.centralizar {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    background: white;
+
+}
+
+.photo {
+    padding: 10px;
+}
+
+.footer {
+    background-color: #4F9B52;
+    height: 90px;
+    color: #FFFEFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.little-card {
+    padding-bottom: 20px;
+}

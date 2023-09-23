@@ -1,0 +1,42 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+ main {
+    width: 70%;
+ }
+
+ nav {
+    background-color: #4F9B52;
+    height: 20px;
+   
+ }
+
+ ul {
+    list-style: none;
+    display: flex;
+    align-items: cente;
+    justify-content: center;
+    
+    gap: 30px;
+    padding: 4px;
+ }
+
+ .logo-blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+ }
+
+.card {
+    border: #4F9B52;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+ 
+
+ 
